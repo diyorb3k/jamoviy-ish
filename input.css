@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto_Condensed/static/RobotoCondensed-Regular.ttf);
+}
 .container {
   max-width: 1280px !important;
   margin: 0 auto !important;
