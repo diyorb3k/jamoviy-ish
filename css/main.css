@@ -587,6 +587,10 @@ video {
   margin-right: auto;
 }
 
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
 .mt-\[50px\] {
   margin-top: 50px;
 }
@@ -610,6 +614,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -671,6 +679,14 @@ video {
 
 .pb-\[10px\] {
   padding-bottom: 10px;
+}
+
+.pr-\[10px\] {
+  padding-right: 10px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
 }
 
 .pt-\[12px\] {
