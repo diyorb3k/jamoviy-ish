@@ -35,7 +35,7 @@
             class="pt-[20px] bg-[#6e6c6c] md:bg-transparent text-center flex md:flex flex-col md:flex-row gap-[40px] duration-500 translate-x-[-150%] md:translate-x-[-0]"
           >
             <ul
-              class="md:flex flex md:flex-row flex-col items-center gap-[10px] md:gap-[40px]"
+              class="md:flex flex md:flex-row flex-col items-center gap-[10px] md:gap-[40px] absolute"
             >
               <li><a class="text-[#525560] font-Robato" href="#">Home</a></li>
               <li>
@@ -113,18 +113,20 @@
             <h2 class="text-white text-[40px] font-bold max-w-[440px]">
               Subscribe to get latest updates
             </h2>
-            <input
-              class="mt-[32px] rounded-[4px] px-[30px] py-[12px] border-[1px] pr-[60px] bg-black text-gray-400"
-              type="email"
-              id="fname"
-              name="fname"
-              value="Your email"
-            />
-            <button
-              class="ml-[-5px] bg-white border-white sm:mr-[-100px] py-[14px] px-[32px] font-bold text-[ #1D2130] rounded-[4px]"
-            >
-              Subscribe
-            </button>
+            <div class="flex mt-[32px]">
+              <input
+                class="rounded-[4px] rounded-tr-none rounded-br-none px-[30px] py-[12px] border-[1px] pr-[60px] bg-black text-gray-400"
+                type="email"
+                id="fname"
+                name="fname"
+                value="Your email"
+              />
+              <button
+                class="box-border bg-white border-white sm:mr-[-100px] py-[14px] px-[32px] font-bold text-[ #1D2130] rounded-[4px]"
+              >
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
         <!-- <div className="wrapper">
